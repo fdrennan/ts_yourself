@@ -36,7 +36,7 @@ server <- function(input, output) {
    output$distPlot <- renderPlot({
      
      file=input$bins
-     if (!file.exists(file)) download.file(urlfile, destfile = file, mode = 'wb')
+     download.file(urlfile, destfile = file, mode = 'wb')
      
      # Load, convert to grayscale, filter image (to convert it to bw) and sample
      load.image(file) %>% 

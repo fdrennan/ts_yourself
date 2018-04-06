@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522985168757.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "850868565",
+    "id" : "8FB7CF7A",
+    "lastKnownWriteTime" : 1522985660,
+    "last_content_update" : 1522985660765,
+    "path" : "~/Documents/programming/rProjects/tsp_me/tsp_me/app.R",
+    "project_path" : "tsp_me/app.R",
+    "properties" : {
+        "cursorPosition" : "7,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

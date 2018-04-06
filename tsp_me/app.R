@@ -19,7 +19,7 @@ ui <- fluidPage(
          textInput("bins",
                     "Put in a link:",
                    "https://i.pinimg.com/736x/ea/8f/f2/ea8ff210d741d8edd3375ef65285c8e5.jpg"),
-         numericInput("range", "Enter Threshold", 50, min = 0, max = 100)
+         numericInput("range", "Enter Threshold between 1 and 100. Might break if too low or high", 50, min = 0, max = 100)
       ), 
       
       
@@ -36,7 +36,7 @@ server <- function(input, output) {
    output$distPlot <- renderPlot({
      
      file=input$bins
-     download.file(urlfile, destfile = file, mode = 'wb')
+     download.file(file, destfile = file, mode = 'wb')
      
      # Load, convert to grayscale, filter image (to convert it to bw) and sample
      load.image(file) %>% 

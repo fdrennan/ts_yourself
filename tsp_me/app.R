@@ -11,7 +11,7 @@ library(TSP)
 ui <- fluidPage(
    
    # Application title
-   titlePanel("Traveling Salesman Yourself"),
+   titlePanel("Traveling Salesman Yourself: A little slow so be patient. :)"),
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
